@@ -40,6 +40,6 @@ public class StudentEntity{
         this.cgpa=cgpa;
     }
     public float getcgpa(){
-        return this.cgpa;
+        return this.cgpa;   
     }
 }
