@@ -22,7 +22,7 @@ public class StudentEntity{
         this.cgpa=cgpa;
     }
     public StudentEntity(){
-        
+
     }
     public void setName(String name){
         this.name=name;
@@ -31,9 +31,15 @@ public class StudentEntity{
         return this.name;
     }
     public void setEmail(){
+        this.email=email;
+    }
+    public String getEmail(){
         return this.email;
     }
     public void setCgpa(){
+        this.cgpa=cgpa;
+    }
+    public float getcgpa(){
         return this.cgpa;
     }
 }
